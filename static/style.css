@@ -1,0 +1,234 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+p,a{
+  margin: 0;
+}
+
+.search input::placeholder {
+  color: #f1f1f1;
+  opacity: 1; /* For Firefox */
+}
+.udialogbg{
+  width:100%;
+  height: 100%;
+}
+.udialog{
+  width: 500px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px .1px rgba(0,0,0,.5);
+}
+.udialog .uclose{
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 10px;
+  color: red;
+}
+.udialog .uclose .uclosebtn{
+  cursor: pointer;
+}
+.udialoginp{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.udialoginp input{
+  width: 250px;
+  height: 25px;
+  margin-bottom: 10px;
+  display: block;
+  padding: 5px 4px;
+  border: .2px solid black;
+  border-radius: 3px;
+}
+.udialoginp input:focus {
+  outline: none;
+  border: 1px solid #0094E8;
+}
+.udialoginp .ubutton{
+  display: flex;
+  justify-content: center;
+  width: 258px;
+}
+.udialoginp .ubutton button{
+  border: 0px solid;
+  padding: 7px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+  background: #0062ff;
+  outline: none;
+}
+
+.editbtn{
+  font-size: 14px;
+  border: 0px solid;
+  padding: 5px 6px;
+  cursor: pointer;
+  color: #0062ff;
+  outline: none;
+  text-decoration: none;
+}
+.deletebtn{
+  margin: 10px 10px 10px 16px;
+  font-size: 16px;
+  border: 0px solid;
+  padding: 5px 6px;
+  cursor: pointer;
+  color: red;
+  outline: none;
+  background: #fff;
+  font-family: serif;
+}
+.content{
+  width: 95%;
+  margin: 80px auto;
+}
+.contacts{
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+}
+.contacts table{
+  width: 100%;
+}
+.contacts table,th,td{
+  border: 1px solid rgba(0,0,0,.1);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+.contacts tr:hover{
+  cursor: pointer;
+  transition: .1s;
+  background: rgba(0,0,0,.1);
+}
+.idialogbg{
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.idialog{
+  width: 500px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px .1px rgba(0,0,0,.5);
+}
+.idialog .close{
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 10px;
+  color: red;
+}
+.idialog .close .closebtn{
+  cursor: pointer;
+}
+.idialoginp{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.idialoginp input{
+  width: 250px;
+  height: 25px;
+  margin-bottom: 10px;
+  display: block;
+  padding: 5px 4px;
+  border: .2px solid black;
+  border-radius: 3px;
+}
+.idialoginp input:focus {
+  outline: none;
+  border: 1px solid #0094E8;
+}
+.idialoginp .button{
+  display: flex;
+  justify-content: center;
+  width: 258px;
+}
+.idialoginp .button button{
+  border: 0px solid;
+  padding: 7px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+  background: #0062ff;
+  outline: none;
+}
+.navbar{
+  width: 100%;
+  height: 55px;
+  background: #0062ff;
+  box-shadow: 0px 0px .5px .1px rgba(0,0,0,.5);
+  position: fixed;
+  top: 0;
+}
+.navitems{
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+.logo{
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: table;
+}
+.logo a{
+  display: table-cell;
+  vertical-align: middle;
+  color:#fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.search{
+  width: 60%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+
+}
+.search input{
+  border: 0px solid;
+  border-radius: 2px;
+  padding-left: 10px;
+  background: rgba(0,0,0,.2);
+  color: #fff;
+  width: 100%;
+  height: 35px;
+}
+.menu{
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: table;
+}
+.menu p{
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+  padding-left: 80%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
